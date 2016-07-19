@@ -55,6 +55,11 @@ PipeWgt::PipeWgt(QWidget *parent) : QWidget(parent)
     piL->setFixedWidth(60);
     piL->setValidator(rgexpValZiro);
 
+    phL->setText("0.3");
+    pDL->setText("0.5");
+    pnL->setText("0.014");
+    piL->setText("0.007");
+
     ph=new QLabel("<BODY><B>&h</B> - уровень воды в трубе, м;</BODY>");
     ph->setBuddy(phL);
     pD=new QLabel("<BODY><B>&D</B> - диаметр трубы, м;</BODY>");
